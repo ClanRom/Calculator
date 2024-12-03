@@ -97,7 +97,7 @@ return(
         <button 
         onClick = {() => inputValue(item)}
         key={index}
-        className={!isNaN(item) ? 'number' : (item === 'C' || item ==='<=' ? 'clear' : 'operate')}
+        className={!isNaN(item) ? 'number' : (item === 'C' || item ==='\u2190' ? 'clear' : 'operate')}
         >
             {item}
         </button>)}
